@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>ManejaYa</title>
 </head>
 <body>
@@ -15,8 +16,8 @@
             <nav>
                 <a href="#nosotros-main">Sobre Nosotros</a>
                 <a href="#nuestras-clases">Nuestras clases</a>
-                <a href="#nuestras-clases">Material</a>
                 <a href="#contacto">Contacto</a>
+                <a href="#carrusel">Nuestros Vehiculos</a>
             </nav>
         </div>
     </header>
@@ -79,12 +80,12 @@
             <div class="carta-container">
                     <div class="carta2">
                         <h3>Manual del Conductor</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit perspiciatis quidem enim reprehenderit aliquam harum eos sunt nostrum sint quibusdam voluptate laboriosam magni, tempore, nulla commodi laborum nihil fugit aspernatur!</p>
+                        <p> Instrucciones detalladas sobre el funcionamiento y las normas de operación de un vehículo. Sirve para garantizar que el conductor comprenda y maneje el vehículo de manera segura y eficiente, cumpliendo con las regulaciones y prácticas recomendadas.</p>
                         <button>+iNFO</button>
                     </div>
                     <div class="carta2">
                         <h3>Señales de Tránsito</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit perspiciatis quidem enim reprehenderit aliquam harum eos sunt nostrum sint quibusdam voluptate laboriosam magni, tempore, nulla commodi laborum nihil fugit aspernatur!</p>
+                        <p>Te dejamos a tu disposición un PDF con todas las señales de tránsito reglamentarias para que puedas leerlas y estudiarlas.</p>
                         <button>+iNFO</button>
                     </div>
             </div>
@@ -101,6 +102,45 @@
                 <li><img src="media/ig.png" alt="">@maneja Ya</li>
             </ul>
         </div>
+        <div class="mapa">
+            <div>
+                <h4>Donde Encontrarnos</h4>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.3034489998461!2d-58.47980668190436!3d-34.57345649069528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb665d2669059%3A0xca4de5de01ca28d2!2sMiller%202248%2C%20C1431%20Villa%20Urquiza%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1724886488277!5m2!1sen!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="carrusel">
+        <div class="carrusel-conteiner">
+            <div>
+                <h4>Nuestros vehículos para Clases de Manejo</h4>
+                <p>
+                    Toda nuestra flota se mantiene en perfectas condiciones, con aire acondicionado, vidrios eléctricos y calefacción para tu comodidad en cualquier clima. Además, cada vehículo está equipado con doble comando, ideal para una conducción flexible y segura. Ofrecemos un seguro especial que te permite manejar con total tranquilidad, sabiendo que estás cubierto en cualquier eventualidad. Con nosotros, puedes disfrutar de una experiencia de conducción segura y confortable sin preocupaciones.
+                </p>
+            </div>
+        
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="media/carrusel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                            <img src="media/carrusel2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/Cursos-manejo-automovil.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </div>
+        </div>
     </section>
     <section class="main2">
         <h1>Aprende a Manejar con nosotros</h1>
@@ -112,6 +152,6 @@
     </div>
 </footer>
     
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+#carrusel{
+    background-color: $color-gray;
+    
+}
+
+#carrusel p{
+    display: none;
+}
+#carrusel div h4{
+    padding: 25px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+.carousel-inner{
+    
+    width: 100%;
+    height: 100%;
+    padding: 15px 0px;
+    
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
